@@ -6,7 +6,7 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 function App() {
-  const [currentPage, setCurrentPage] = useState("");
+  const [currentPage, setCurrentPage] = useState("About");
   const handleClick = (event) => {
     setCurrentPage(event);
   };
