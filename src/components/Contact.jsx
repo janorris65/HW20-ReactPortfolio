@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers.js";
@@ -80,7 +80,11 @@ function Contact() {
           type="text"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button
+          className="rounded-full bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700"
+          type="button"
+          onClick={handleFormSubmit}
+        >
           Submit
         </button>
       </form>

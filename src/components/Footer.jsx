@@ -1,14 +1,22 @@
-import PropTypes from "prop-types";
-
 export default function Footer() {
   return (
     <>
-      <a href="/">
-        <img src="../assets/Linkedinimg.jpg" alt="" />
-      </a>
-      <a href="/">
-        <img src="../assets/Instagramimg.jpg" alt="" />
-      </a>
+      <footer className="flex justify-center bg-slate-300">
+        <a href="https://www.linkedin.com/in/joshua-norris-080b4729/">
+          <img
+            className="h-24 w-48 object-scale-down"
+            src="../assets/Linkedinimg.jpg"
+            alt=""
+          />
+        </a>
+        <a href="https://www.instagram.com/put14in/">
+          <img
+            className="h-24 w-48 object-scale-down"
+            src="../assets/Instagramimg.jpg"
+            alt=""
+          />
+        </a>
+      </footer>
     </>
   );
 }

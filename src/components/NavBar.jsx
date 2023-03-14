@@ -4,15 +4,39 @@ export default function NavBar(props) {
   const { handleClick, currentPage } = props;
   return (
     // Name , Navs (about me, portfolio, contact, resume), current section must be highlighted, onclick
-    <header>
+    <header className="bg-slate-300">
       <h1>Joshua Norris</h1>
       <h2>{props.selected}</h2>
       <nav className="my-8">
         <ul className="flex justify-around gap-x-8">
-          <li onClick={() => handleClick("About")}>About Me</li>
-          <li onClick={() => handleClick("Portfolio")}>Portfolio</li>
-          <li onClick={() => handleClick("Contact")}>Contact</li>
-          <li onClick={() => handleClick("Resume")}>Resume</li>
+          <li
+            className={props.color1}
+            onClick={() => handleClick("About")}
+            aria-hidden="true"
+          >
+            About Me
+          </li>
+          <li
+            className={props.color2}
+            onClick={() => handleClick("Portfolio")}
+            aria-hidden="true"
+          >
+            Portfolio
+          </li>
+          <li
+            className={props.color3}
+            onClick={() => handleClick("Contact")}
+            aria-hidden="true"
+          >
+            Contact
+          </li>
+          <li
+            className={props.color4}
+            onClick={() => handleClick("Resume")}
+            aria-hidden="true"
+          >
+            Resume
+          </li>
         </ul>
       </nav>
     </header>
@@ -20,6 +44,6 @@ export default function NavBar(props) {
 }
 
 NavBar.propTypes = {
-  links: PropTypes.arrayOf(PropTypes.string).isRequired,
+  selected: PropTypes.arrayOf(PropTypes.string).isRequired,
   handleClick: PropTypes.func.isRequired,
 };
