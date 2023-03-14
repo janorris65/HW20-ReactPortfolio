@@ -4,64 +4,33 @@ import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 function App() {
   const [currentPage, setCurrentPage] = useState("");
   const handleClick = (event) => {
     setCurrentPage(event);
   };
-
+  let response;
   switch (currentPage) {
     case "About":
-      return (
-        <>
-          <NavBar
-            selected={currentPage}
-            handleClick={handleClick}
-            // currentPage={currentPage}
-          />
-          <AboutMe />
-        </>
-      );
+      return (response = <AboutMe />);
     case "Contact":
-      return (
-        <>
-          <NavBar
-            selected={currentPage}
-            handleClick={handleClick}
-            // currentPage={currentPage}
-          />
-          <Contact />
-        </>
-      );
+      return (response = <Contact />);
     case "Resume":
-      return (
-        <>
-          <NavBar
-            selected={currentPage}
-            handleClick={handleClick}
-            // currentPage={currentPage}
-          />
-          <Resume />
-        </>
-      );
+      return (response = <Resume />);
     case "Portfolio":
-      return (
-        <>
-          <NavBar
-            selected={currentPage}
-            handleClick={handleClick}
-            // currentPage={currentPage}
-          />
-          <Portfolio />
-        </>
-      );
+      return (response = <Portfolio />);
   }
   return (
-    <NavBar
-      selected={currentPage}
-      handleClick={handleClick}
-      // currentPage={currentPage}
-    />
+    <>
+      <NavBar
+        selected={currentPage}
+        handleClick={handleClick}
+        // currentPage={currentPage}
+      />
+      <div>{response}</div>
+      <Footer />
+    </>
   );
 }
 
