@@ -13,13 +13,17 @@ function App() {
   let response;
   switch (currentPage) {
     case "About":
-      return (response = <AboutMe />);
+      response = <AboutMe />;
+      break;
     case "Contact":
-      return (response = <Contact />);
+      response = <Contact />;
+      break;
     case "Resume":
-      return (response = <Resume />);
+      response = <Resume />;
+      break;
     case "Portfolio":
-      return (response = <Portfolio />);
+      response = <Portfolio />;
+      break;
   }
   return (
     <>
