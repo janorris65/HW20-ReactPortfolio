@@ -27,7 +27,7 @@ Open the webpage https://main--clinquant-hotteok-e5e694.netlify.app/
 
 Click on the links, download resume
 
-![React Portfolio](assets/WebCaptureReactPort.jpeg)
+![React Portfolio](WebCaptureReactPort.jpeg)
 
 ## Credits
 
