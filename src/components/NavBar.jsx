@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 export default function NavBar(props) {
-  const { handleClick, currentPage } = props;
+  const { handleClick } = props;
   return (
     // Name , Navs (about me, portfolio, contact, resume), current section must be highlighted, onclick
     <header className="bg-slate-300">
@@ -44,6 +44,10 @@ export default function NavBar(props) {
 }
 
 NavBar.propTypes = {
+  color1: PropTypes.any,
+  color2: PropTypes.any,
+  color3: PropTypes.any,
+  color4: PropTypes.any,
   selected: PropTypes.arrayOf(PropTypes.string).isRequired,
   handleClick: PropTypes.func.isRequired,
 };
