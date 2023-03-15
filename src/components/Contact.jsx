@@ -56,7 +56,7 @@ function Contact() {
 
   return (
     <div>
-      <form className="form">
+      <form className="form flex justify-center gap-8">
         <input
           value={email}
           name="email"
