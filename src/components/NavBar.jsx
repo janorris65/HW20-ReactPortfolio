@@ -4,7 +4,7 @@ export default function NavBar(props) {
   const { handleClick } = props;
   return (
     // Name , Navs (about me, portfolio, contact, resume), current section must be highlighted, onclick
-    <header className="bg-slate-300">
+    <header className="space-y-15 flex justify-center gap-x-10 bg-slate-300">
       <h1>Joshua Norris</h1>
       <h2>{props.selected}</h2>
       <nav className="my-8">
