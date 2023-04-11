@@ -23,7 +23,7 @@ export default function Portfolio() {
           </figure>
           <figcaption className="p-2">
             FBI Profiler is based on the work of Dan Korem and his book the Art
-            of Profiling. It enables user to create a database of people and to
+            of Profiling. It enables users to create a database of people and to
             store and compare the results of categories of questions between
             them. It uses express, handlebars, and SQL.
           </figcaption>
@@ -93,9 +93,9 @@ export default function Portfolio() {
               database contruction.
             </p>
             <p>
-              The current interation is mathamtically interesting but the
-              outcome is deceptively simple with plenty of room to grow as the
-              theory is robust.
+              The current iteration is mathamtically interesting but the outcome
+              is deceptively simple with plenty of room to grow as the theory is
+              robust.
             </p>
           </figcaption>
         </card>
