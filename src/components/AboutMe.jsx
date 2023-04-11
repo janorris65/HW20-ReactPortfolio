@@ -1,5 +1,5 @@
 import me from "../../assets/SelfBW.jpg";
-import factory from "../../assets/factory.jpg";
+import factory from "../../assets/Factory.jpg";
 import football from "../../assets/Ifootball.jpeg";
 export default function AboutMe() {
   return (
