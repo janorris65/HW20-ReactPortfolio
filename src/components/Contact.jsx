@@ -56,7 +56,7 @@ function Contact() {
 
   return (
     <div>
-      <form className="form flex justify-center gap-8">
+      <form className="form flex flex-col items-center justify-center gap-8">
         <input
           value={email}
           name="email"
@@ -73,7 +73,7 @@ function Contact() {
           type="text"
           placeholder="username"
         />
-        <input
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
