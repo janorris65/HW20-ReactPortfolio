@@ -8,7 +8,7 @@ export default function AboutMe() {
         <card className="flex flex-row justify-center rounded-2xl border-2 border-stone-800 bg-slate-100 hover:drop-shadow-2xl">
           <a href="/">
             <img
-              className="h-48 w-96 object-scale-down drop-shadow-lg"
+              className="h-48 w-96 object-scale-down p-2 drop-shadow-lg"
               src={me}
               alt=""
             />
@@ -16,14 +16,12 @@ export default function AboutMe() {
           <div className="flex flex-col px-2">
             <p>
               I started a new path a number a years ago to grow with, grow from,
-              and grow others. I felt it best to set a path of responsibility as
-              best I could when I could, from wherever I am, from whoever I am,
-              with whatever I have, however I can, and why ever I know.
+              and grow others.
             </p>
             <p>
-              This page is generated using React with tailwind CSS. The React
-              functionality is created using a switch case system and not a
-              React Router.
+              I felt it best to set a path of responsibility as best I could
+              whenever I could, from wherever I am, by whoever I am, with
+              whatever I have, however I can, and why ever I know.
             </p>
           </div>
         </card>
@@ -31,8 +29,8 @@ export default function AboutMe() {
           <div className="flex flex-col px-2">
             <p>
               My working career is filled with transformative situations made,
-              not given, from circumstances of trial, error, confidence, and
-              aspiration.
+              not given, from circumstances of trial, error, confidence,
+              aspiration and critical thinking.
             </p>
             <p>
               I am proud of setting this factory production record many third
@@ -51,7 +49,7 @@ export default function AboutMe() {
           </div>
           <a href="/">
             <img
-              className="h-48 w-96 object-scale-down drop-shadow-lg"
+              className="h-48 w-96 object-scale-down p-2 drop-shadow-lg"
               src={factory}
               alt=""
             />
@@ -60,7 +58,7 @@ export default function AboutMe() {
         <card className="flex flex-row justify-center rounded-2xl border-2 border-stone-800 bg-slate-100 hover:drop-shadow-2xl">
           <a href="/">
             <img
-              className="h-48 w-96 object-scale-down drop-shadow-lg"
+              className="h-48 w-96 object-scale-down p-2 drop-shadow-lg"
               src={football}
               alt=""
             />

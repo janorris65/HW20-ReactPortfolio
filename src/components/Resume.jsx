@@ -1,7 +1,9 @@
 export default function Resume() {
   return (
     <>
-      <a href="../../assets/Joshua.docx">Resume</a>
+      <a className="p-8" href="../../assets/Joshua.docx">
+        Resume
+      </a>
     </>
   );
 }

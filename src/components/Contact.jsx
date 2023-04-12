@@ -46,6 +46,9 @@ function Contact() {
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
+    window.open(
+      `mailto:janorris65@gmail.com?subject=Portfolio Contact from ${userName}&body=${message}`
+    );
     alert(`Hello ${userName}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
