@@ -20,8 +20,8 @@ export default function AboutMe() {
             </p>
             <p>
               I felt it best to set a path of responsibility as best I could
-              whenever I could, from wherever I am, by whoever I am, with
-              whatever I have, however I can, and why ever I know.
+              whenever I could, from wherever I am, with whatever I have,
+              however I can.
             </p>
           </div>
         </card>
