@@ -90,7 +90,7 @@ export default function Portfolio() {
             <p>
               This is a project with the Saint Louis Public Library on search
               engine designs. It looks to solve, among many problems, bias in
-              database contruction.
+              database construction.
             </p>
             <p>
               The current iteration is mathamtically interesting but the outcome
