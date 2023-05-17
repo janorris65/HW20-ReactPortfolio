@@ -1,6 +1,6 @@
 import fbi from "../../assets/FBIProfilerapp.jpeg";
 import put14in from "../../assets/Put14inLogo.png";
-import FHW from "../../assets/Webrename.jpeg";
+import StaffEase from "../../assets/StaffEase.jpeg";
 import social from "../../assets/SocialMediaStrat.jpeg";
 import pocket from "../../assets/PocketFitness.png";
 import weather from "../../assets/WeatherApp.jpeg";
@@ -59,19 +59,20 @@ export default function Portfolio() {
         </card>
         <card className="flex flex-row rounded-2xl border-2 border-stone-800 bg-slate-100 hover:drop-shadow-2xl">
           <figure>
-            First HW Nostalgia
-            <a href="https://janorris65.github.io/First-Homework/">
+            StaffEase
+            <a href="https://graceful-duckanoo-8813c2.netlify.app/">
               <img
                 className="h-48 w-96 object-scale-down px-2"
-                src={FHW}
+                src={StaffEase}
                 alt=""
               />
             </a>
-            <a href="https://github.com/janorris65/betaHW2">GitHub</a>
+            <a href="https://github.com/janorris65/StaffEaseJN">GitHub</a>
           </figure>
           <figcaption className="p-2">
-            This is just a basic realignment of CSS components. It exists on
-            this page to show how far one can go in a less than a year.
+            This is a React, MongoDB, Express, Nodejs, and GraphQL Apollo
+            Server. A Database store and retrieve design behind a Stripe
+            Paywall. Color Coded Reviews and active employee updates.
           </figcaption>
         </card>
         <card className="flex flex-row rounded-2xl border-2 border-stone-800 bg-slate-100 hover:drop-shadow-2xl">
