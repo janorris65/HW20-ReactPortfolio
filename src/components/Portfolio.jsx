@@ -94,9 +94,9 @@ export default function Portfolio() {
               database construction.
             </p>
             <p>
-              The current iteration is mathamtically interesting but the outcome
-              is deceptively simple with plenty of room to grow as the theory is
-              robust.
+              The current iteration is mathematically interesting but the
+              outcome is deceptively simple with plenty of room to grow as the
+              theory is robust.
             </p>
           </figcaption>
         </card>
